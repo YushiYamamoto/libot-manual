@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => {
   const { VITE_APP_PROXY_TARGET } = env
 
   const config: UserConfig = {
-    base: isDev() ? '/' : '/vue3-admin-starter/',
+    base: isDev() ? '/' : '/',
     resolve: {
       alias: {
         '@': srcPath,
